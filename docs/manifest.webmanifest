@@ -1,0 +1,16 @@
+{
+  "name": "通琴号班次查询",
+  "short_name": "通琴号班次",
+  "description": "澳门城市大学与横琴口岸通勤班次查询",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f2",
+  "theme_color": "#176d4d",
+  "lang": "zh-CN",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

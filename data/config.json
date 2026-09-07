@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "serviceAssumption": "原始时刻表未提供运营日字段，当前按每日运行处理。",
+  "sources": [
+    {
+      "file": "routes/城市大学到横琴.txt",
+      "direction": "toHengqin",
+      "label": "去横琴口岸",
+      "serviceDays": [0, 1, 2, 3, 4, 5, 6]
+    },
+    {
+      "file": "routes/横琴到城市大学.txt",
+      "direction": "toUniversity",
+      "label": "去城市大学",
+      "serviceDays": [0, 1, 2, 3, 4, 5, 6]
+    }
+  ]
+}

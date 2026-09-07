@@ -1,0 +1,4714 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": [
+    "data/config.json",
+    "data/overrides.json",
+    "data/routes/城市大学到横琴.txt",
+    "data/routes/横琴到城市大学.txt"
+  ],
+  "serviceAssumption": "原始时刻表未提供运营日字段，当前按每日运行处理。",
+  "warnings": [],
+  "routes": [
+    {
+      "routeCode": "D1",
+      "serviceName": "D1市民中心-上班线",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "澳门新葡京酒店",
+          "displayName": "澳门新葡京酒店",
+          "time": "07:40",
+          "minutes": 460,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新濠锋酒店",
+          "displayName": "澳门城市大学",
+          "time": "08:00",
+          "minutes": 480,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "赛马会（公交站）",
+          "displayName": "赛马会（公交站）",
+          "time": "08:05",
+          "minutes": 485,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "莲花路停车场（莲花关桥头）",
+          "displayName": "莲花路停车场（莲花关桥头）",
+          "time": "08:10",
+          "minutes": 490,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "南迎客平台（南二门）",
+          "displayName": "南迎客平台（南二门）",
+          "time": "08:25",
+          "minutes": 505,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "横琴市民中心（往颂琴）",
+          "displayName": "横琴市民中心（往颂琴）",
+          "time": "08:37",
+          "minutes": 517,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "市民中心（祥顺路东侧）（东1）",
+          "displayName": "市民中心（祥顺路东侧）（东1）",
+          "time": "08:38",
+          "minutes": 518,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "08:40",
+          "minutes": 520,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中葡经贸中心（往琴海西）",
+          "displayName": "中葡经贸中心（往琴海西）",
+          "time": "08:45",
+          "minutes": 525,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中医药产业园①",
+          "displayName": "中医药产业园①",
+          "time": "08:51",
+          "minutes": 531,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "琴海西站总站",
+          "displayName": "琴海西站总站",
+          "time": "08:58",
+          "minutes": 538,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 1,
+      "alightingStopIndex": 4,
+      "boardingTime": "08:00",
+      "alightingTime": "08:25",
+      "boardingMinutes": 480,
+      "alightingMinutes": 505,
+      "duration": 25
+    },
+    {
+      "routeCode": "B15",
+      "serviceName": "B15线（高校线）-澳琴上班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "08:00",
+          "minutes": 480,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "08:11",
+          "minutes": 491,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "08:36",
+          "minutes": 516,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "08:52",
+          "minutes": 532,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "08:54",
+          "minutes": 534,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "08:56",
+          "minutes": 536,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "08:58",
+          "minutes": 538,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "09:02",
+          "minutes": 542,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 2,
+      "boardingTime": "08:00",
+      "alightingTime": "08:36",
+      "boardingMinutes": 480,
+      "alightingMinutes": 516,
+      "duration": 36
+    },
+    {
+      "routeCode": "B20",
+      "serviceName": "B20线（高校线）-澳琴上班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "08:50",
+          "minutes": 530,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "09:04",
+          "minutes": 544,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "09:33",
+          "minutes": 573,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "09:43",
+          "minutes": 583,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "09:44",
+          "minutes": 584,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "09:45",
+          "minutes": 585,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "09:46",
+          "minutes": 586,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "09:51",
+          "minutes": 591,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 1,
+      "alightingStopIndex": 2,
+      "boardingTime": "09:04",
+      "alightingTime": "09:33",
+      "boardingMinutes": 544,
+      "alightingMinutes": 573,
+      "duration": 29
+    },
+    {
+      "routeCode": "A5",
+      "serviceName": "A5线-澳琴早上班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "09:00",
+          "minutes": 540,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "09:14",
+          "minutes": 554,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "09:43",
+          "minutes": 583,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "09:50",
+          "minutes": 590,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（琴政路北侧）",
+          "displayName": "保利国际广场（琴政路北侧）",
+          "time": "09:51",
+          "minutes": 591,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "09:52",
+          "minutes": 592,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "09:53",
+          "minutes": 593,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "09:57",
+          "minutes": 597,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 1,
+      "alightingStopIndex": 2,
+      "boardingTime": "09:14",
+      "alightingTime": "09:43",
+      "boardingMinutes": 554,
+      "alightingMinutes": 583,
+      "duration": 29
+    },
+    {
+      "routeCode": "A3",
+      "serviceName": "A3线中班-下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "12:00",
+          "minutes": 720,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）②",
+          "displayName": "澳门科技大学-伟龙（西北门）②",
+          "time": "12:06",
+          "minutes": 726,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "12:09",
+          "minutes": 729,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "12:16",
+          "minutes": 736,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "12:23",
+          "minutes": 743,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "12:24",
+          "minutes": 744,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "12:25",
+          "minutes": 745,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "12:26",
+          "minutes": 746,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "12:29",
+          "minutes": 749,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "环岛北路西（科创中心）②",
+          "displayName": "环岛北路西（科创中心）②",
+          "time": "12:38",
+          "minutes": 758,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中医药产业园（IN1下客点）",
+          "displayName": "中医药产业园（IN1下客点）",
+          "time": "12:39",
+          "minutes": 759,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "12:00",
+      "alightingTime": "12:16",
+      "boardingMinutes": 720,
+      "alightingMinutes": 736,
+      "duration": 16
+    },
+    {
+      "routeCode": "B10",
+      "serviceName": "B10线（高校线）-午下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "12:10",
+          "minutes": 730,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学-轻轨站",
+          "displayName": "澳门科技大学-轻轨站",
+          "time": "12:17",
+          "minutes": 737,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）②",
+          "displayName": "澳门科技大学-伟龙（西北门）②",
+          "time": "12:20",
+          "minutes": 740,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "12:43",
+          "minutes": 763,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "琴政路口②",
+          "displayName": "琴政路口②",
+          "time": "12:46",
+          "minutes": 766,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "12:47",
+          "minutes": 767,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "12:48",
+          "minutes": 768,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "12:50",
+          "minutes": 770,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "12:55",
+          "minutes": 775,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "12:10",
+      "alightingTime": "12:43",
+      "boardingMinutes": 730,
+      "alightingMinutes": 763,
+      "duration": 33
+    },
+    {
+      "routeCode": "B3",
+      "serviceName": "B3线（高校线）-午班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "12:20",
+          "minutes": 740,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "12:26",
+          "minutes": 746,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）②",
+          "displayName": "澳门科技大学-伟龙（西北门）②",
+          "time": "12:28",
+          "minutes": 748,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "12:58",
+          "minutes": 778,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "横琴人才公寓（正门）",
+          "displayName": "横琴人才公寓（正门）",
+          "time": "13:03",
+          "minutes": 783,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "国际网球中心（靠石山村公交点）",
+          "displayName": "国际网球中心（靠石山村公交点）",
+          "time": "13:06",
+          "minutes": 786,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "粗沙环（公交点）",
+          "displayName": "粗沙环（公交点）",
+          "time": "13:09",
+          "minutes": 789,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴医院",
+          "displayName": "横琴医院",
+          "time": "13:14",
+          "minutes": 794,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "12:20",
+      "alightingTime": "12:58",
+      "boardingMinutes": 740,
+      "alightingMinutes": 778,
+      "duration": 38
+    },
+    {
+      "routeCode": "B16",
+      "serviceName": "B16线（高校线）-澳琴午班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "13:00",
+          "minutes": 780,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "13:11",
+          "minutes": 791,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "13:36",
+          "minutes": 816,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "13:52",
+          "minutes": 832,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "13:54",
+          "minutes": 834,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "13:56",
+          "minutes": 836,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "13:58",
+          "minutes": 838,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "14:00",
+          "minutes": 840,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 2,
+      "boardingTime": "13:00",
+      "alightingTime": "13:36",
+      "boardingMinutes": 780,
+      "alightingMinutes": 816,
+      "duration": 36
+    },
+    {
+      "routeCode": "B17",
+      "serviceName": "B17线（高校线）-澳琴午下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "13:15",
+          "minutes": 795,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "13:26",
+          "minutes": 806,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "13:52",
+          "minutes": 832,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "14:02",
+          "minutes": 842,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "14:03",
+          "minutes": 843,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "14:04",
+          "minutes": 844,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "14:05",
+          "minutes": 845,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "14:13",
+          "minutes": 853,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 2,
+      "boardingTime": "13:15",
+      "alightingTime": "13:52",
+      "boardingMinutes": 795,
+      "alightingMinutes": 832,
+      "duration": 37
+    },
+    {
+      "routeCode": "D6",
+      "serviceName": "D6澳琴东线午班-上班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "观音古庙门口（澳旅大望厦校区）",
+          "displayName": "观音古庙门口（澳旅大望厦校区）",
+          "time": "13:00",
+          "minutes": 780,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "观音堂（来来商场对面）",
+          "displayName": "观音堂（来来商场对面）",
+          "time": "13:01",
+          "minutes": 781,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "二龙喉公园",
+          "displayName": "二龙喉公园",
+          "time": "13:03",
+          "minutes": 783,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "巴波沙大马路",
+          "displayName": "巴波沙大马路",
+          "time": "13:11",
+          "minutes": 791,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "关闸广场（旅游巴出口停靠位）",
+          "displayName": "关闸广场（旅游巴出口停靠位）",
+          "time": "13:15",
+          "minutes": 795,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "13:30",
+          "minutes": 810,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "科大/机场货运站",
+          "displayName": "科大/机场货运站",
+          "time": "13:39",
+          "minutes": 819,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "射击路/上葡京",
+          "displayName": "射击路/上葡京",
+          "time": "13:41",
+          "minutes": 821,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "莲花路停车场（莲花关桥头）",
+          "displayName": "莲花路停车场（莲花关桥头）",
+          "time": "13:43",
+          "minutes": 823,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "14:03",
+          "minutes": 843,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中央汇（创业谷）（临时停靠点）",
+          "displayName": "中央汇（创业谷）（临时停靠点）",
+          "time": "14:08",
+          "minutes": 848,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "依依桥北②",
+          "displayName": "依依桥北②",
+          "time": "14:10",
+          "minutes": 850,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "天星里①",
+          "displayName": "天星里①",
+          "time": "14:12",
+          "minutes": 852,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "伯牙小学临时停靠点①",
+          "displayName": "伯牙小学临时停靠点①",
+          "time": "14:13",
+          "minutes": 853,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "市民中心（祥顺路东侧）（东2）",
+          "displayName": "市民中心（祥顺路东侧）（东2）",
+          "time": "14:14",
+          "minutes": 854,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "14:16",
+          "minutes": 856,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "14:18",
+          "minutes": 858,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中医药产业园（IN1下客点）",
+          "displayName": "中医药产业园（IN1下客点）",
+          "time": "14:21",
+          "minutes": 861,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 9,
+      "boardingTime": "13:30",
+      "alightingTime": "14:03",
+      "boardingMinutes": 810,
+      "alightingMinutes": 843,
+      "duration": 33
+    },
+    {
+      "routeCode": "A5",
+      "serviceName": "A5线-澳琴午下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "13:30",
+          "minutes": 810,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "13:44",
+          "minutes": 824,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "14:13",
+          "minutes": 853,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "14:21",
+          "minutes": 861,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "14:22",
+          "minutes": 862,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "14:23",
+          "minutes": 863,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "14:24",
+          "minutes": 864,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "14:29",
+          "minutes": 869,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 1,
+      "alightingStopIndex": 2,
+      "boardingTime": "13:44",
+      "alightingTime": "14:13",
+      "boardingMinutes": 824,
+      "alightingMinutes": 853,
+      "duration": 29
+    },
+    {
+      "routeCode": "A2",
+      "serviceName": "A2线-下班线",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "15:40",
+          "minutes": 940,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）②",
+          "displayName": "澳门科技大学南门（新濠天地）②",
+          "time": "15:48",
+          "minutes": 948,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "15:50",
+          "minutes": 950,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "16:20",
+          "minutes": 980,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "16:29",
+          "minutes": 989,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "16:30",
+          "minutes": 990,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "16:31",
+          "minutes": 991,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "16:31",
+          "minutes": 991,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "16:34",
+          "minutes": 994,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "15:40",
+      "alightingTime": "16:20",
+      "boardingMinutes": 940,
+      "alightingMinutes": 980,
+      "duration": 40
+    },
+    {
+      "routeCode": "B17",
+      "serviceName": "B17线（高校线）-澳琴晚下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "17:45",
+          "minutes": 1065,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "17:53",
+          "minutes": 1073,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "18:19",
+          "minutes": 1099,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "18:29",
+          "minutes": 1109,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "18:30",
+          "minutes": 1110,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "18:31",
+          "minutes": 1111,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "18:32",
+          "minutes": 1112,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "18:37",
+          "minutes": 1117,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 2,
+      "boardingTime": "17:45",
+      "alightingTime": "18:19",
+      "boardingMinutes": 1065,
+      "alightingMinutes": 1099,
+      "duration": 34
+    },
+    {
+      "routeCode": "B15",
+      "serviceName": "B15线（高校线）-澳琴下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "18:00",
+          "minutes": 1080,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "18:11",
+          "minutes": 1091,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "18:36",
+          "minutes": 1116,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "18:48",
+          "minutes": 1128,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "18:52",
+          "minutes": 1132,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "18:54",
+          "minutes": 1134,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "18:56",
+          "minutes": 1136,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "19:00",
+          "minutes": 1140,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 2,
+      "boardingTime": "18:00",
+      "alightingTime": "18:36",
+      "boardingMinutes": 1080,
+      "alightingMinutes": 1116,
+      "duration": 36
+    },
+    {
+      "routeCode": "B9",
+      "serviceName": "B9线（高校线）-下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "18:30",
+          "minutes": 1110,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "18:40",
+          "minutes": 1120,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）②",
+          "displayName": "澳门科技大学南门（新濠天地）②",
+          "time": "18:42",
+          "minutes": 1122,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/行政楼",
+          "displayName": "澳大/行政楼",
+          "time": "19:00",
+          "minutes": 1140,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/研究生宿舍①",
+          "displayName": "澳大/研究生宿舍①",
+          "time": "19:02",
+          "minutes": 1142,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/中央教学楼①",
+          "displayName": "澳大/中央教学楼①",
+          "time": "19:04",
+          "minutes": 1144,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "19:34",
+          "minutes": 1174,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "琴政路口②",
+          "displayName": "琴政路口②",
+          "time": "19:37",
+          "minutes": 1177,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "19:39",
+          "minutes": 1179,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "19:41",
+          "minutes": 1181,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "19:43",
+          "minutes": 1183,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "19:45",
+          "minutes": 1185,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "上村",
+          "displayName": "上村",
+          "time": "19:48",
+          "minutes": 1188,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 6,
+      "boardingTime": "18:30",
+      "alightingTime": "19:34",
+      "boardingMinutes": 1110,
+      "alightingMinutes": 1174,
+      "duration": 64
+    },
+    {
+      "routeCode": "B6",
+      "serviceName": "B6线（高校线）-下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "澳门新濠锋酒店",
+          "displayName": "澳门城市大学",
+          "time": "18:55",
+          "minutes": 1135,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "19:03",
+          "minutes": 1143,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "霍英东马路/新濠天地",
+          "displayName": "霍英东马路/新濠天地",
+          "time": "19:05",
+          "minutes": 1145,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "19:35",
+          "minutes": 1175,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "19:37",
+          "minutes": 1177,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "19:39",
+          "minutes": 1179,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "19:41",
+          "minutes": 1181,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "19:43",
+          "minutes": 1183,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "19:48",
+          "minutes": 1188,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "18:55",
+      "alightingTime": "19:35",
+      "boardingMinutes": 1135,
+      "alightingMinutes": 1175,
+      "duration": 40
+    },
+    {
+      "routeCode": "B1",
+      "serviceName": "B1线（高校线）-下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "19:00",
+          "minutes": 1140,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "19:08",
+          "minutes": 1148,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）②",
+          "displayName": "澳门科技大学-伟龙（西北门）②",
+          "time": "19:10",
+          "minutes": 1150,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "南迎客平台（南二门）",
+          "displayName": "南迎客平台（南二门）",
+          "time": "19:45",
+          "minutes": 1185,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "19:52",
+          "minutes": 1192,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "19:54",
+          "minutes": 1194,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "19:57",
+          "minutes": 1197,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "19:59",
+          "minutes": 1199,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "20:03",
+          "minutes": 1203,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "19:00",
+      "alightingTime": "19:45",
+      "boardingMinutes": 1140,
+      "alightingMinutes": 1185,
+      "duration": 45
+    },
+    {
+      "routeCode": "A3",
+      "serviceName": "A3线晚班-下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "19:30",
+          "minutes": 1170,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "19:38",
+          "minutes": 1178,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "霍英东马路/新濠天地",
+          "displayName": "霍英东马路/新濠天地",
+          "time": "19:39",
+          "minutes": 1179,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "20:04",
+          "minutes": 1204,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "20:11",
+          "minutes": 1211,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "20:12",
+          "minutes": 1212,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "20:13",
+          "minutes": 1213,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "20:16",
+          "minutes": 1216,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "20:21",
+          "minutes": 1221,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "环岛北路西（科创中心）②",
+          "displayName": "环岛北路西（科创中心）②",
+          "time": "20:31",
+          "minutes": 1231,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中医药产业园（IN1下客点）",
+          "displayName": "中医药产业园（IN1下客点）",
+          "time": "20:33",
+          "minutes": 1233,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "19:30",
+      "alightingTime": "20:04",
+      "boardingMinutes": 1170,
+      "alightingMinutes": 1204,
+      "duration": 34
+    },
+    {
+      "routeCode": "C4",
+      "serviceName": "C4线夜班-下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "澳门新濠锋酒店",
+          "displayName": "澳门城市大学",
+          "time": "21:33",
+          "minutes": 1293,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "21:40",
+          "minutes": 1300,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "霍英东马路/新濠天地",
+          "displayName": "霍英东马路/新濠天地",
+          "time": "21:41",
+          "minutes": 1301,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "22:06",
+          "minutes": 1326,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "22:13",
+          "minutes": 1333,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "22:14",
+          "minutes": 1334,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "22:15",
+          "minutes": 1335,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "22:18",
+          "minutes": 1338,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "22:23",
+          "minutes": 1343,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "上村村口公交站",
+          "displayName": "上村村口公交站",
+          "time": "22:26",
+          "minutes": 1346,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "21:33",
+      "alightingTime": "22:06",
+      "boardingMinutes": 1293,
+      "alightingMinutes": 1326,
+      "duration": 33
+    },
+    {
+      "routeCode": "B11",
+      "serviceName": "B11线（高校线）-夜下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "21:50",
+          "minutes": 1310,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学-轻轨站",
+          "displayName": "澳门科技大学-轻轨站",
+          "time": "22:00",
+          "minutes": 1320,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）①",
+          "displayName": "澳门科技大学-伟龙（西北门）①",
+          "time": "22:01",
+          "minutes": 1321,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/研究生宿舍①",
+          "displayName": "澳大/研究生宿舍①",
+          "time": "22:13",
+          "minutes": 1333,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/中央教学楼②",
+          "displayName": "澳大/中央教学楼②",
+          "time": "22:14",
+          "minutes": 1334,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "22:30",
+          "minutes": 1350,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "22:37",
+          "minutes": 1357,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "22:39",
+          "minutes": 1359,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "22:41",
+          "minutes": 1361,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "22:44",
+          "minutes": 1364,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "22:46",
+          "minutes": 1366,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "金汇国际广场①",
+          "displayName": "金汇国际广场①",
+          "time": "22:48",
+          "minutes": 1368,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "桂风道路口（北侧西行）",
+          "displayName": "桂风道路口（北侧西行）",
+          "time": "22:55",
+          "minutes": 1375,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中医药产业园（IN1下客点）",
+          "displayName": "中医药产业园（IN1下客点）",
+          "time": "23:00",
+          "minutes": 1380,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 5,
+      "boardingTime": "21:50",
+      "alightingTime": "22:30",
+      "boardingMinutes": 1310,
+      "alightingMinutes": 1350,
+      "duration": 40
+    },
+    {
+      "routeCode": "A4",
+      "serviceName": "A4线夜班-下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "21:55",
+          "minutes": 1315,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "22:03",
+          "minutes": 1323,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "霍英东马路/新濠天地",
+          "displayName": "霍英东马路/新濠天地",
+          "time": "22:04",
+          "minutes": 1324,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "22:20",
+          "minutes": 1340,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "22:27",
+          "minutes": 1347,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "22:28",
+          "minutes": 1348,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "22:29",
+          "minutes": 1349,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "22:32",
+          "minutes": 1352,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "22:37",
+          "minutes": 1357,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "桂风道路口（北侧西行）",
+          "displayName": "桂风道路口（北侧西行）",
+          "time": "22:47",
+          "minutes": 1367,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中医药产业园（IN1下客点）",
+          "displayName": "中医药产业园（IN1下客点）",
+          "time": "22:49",
+          "minutes": 1369,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "21:55",
+      "alightingTime": "22:20",
+      "boardingMinutes": 1315,
+      "alightingMinutes": 1340,
+      "duration": 25
+    },
+    {
+      "routeCode": "B12",
+      "serviceName": "B12线（高校线）-夜下班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "22:00",
+          "minutes": 1320,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学-轻轨站",
+          "displayName": "澳门科技大学-轻轨站",
+          "time": "22:07",
+          "minutes": 1327,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）①",
+          "displayName": "澳门科技大学-伟龙（西北门）①",
+          "time": "22:10",
+          "minutes": 1330,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "22:27",
+          "minutes": 1347,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "22:34",
+          "minutes": 1354,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "22:36",
+          "minutes": 1356,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "22:38",
+          "minutes": 1358,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "22:42",
+          "minutes": 1362,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "桂风道路口（北侧西行）",
+          "displayName": "桂风道路口（北侧西行）",
+          "time": "22:47",
+          "minutes": 1367,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中医药产业园（IN1下客点）",
+          "displayName": "中医药产业园（IN1下客点）",
+          "time": "22:52",
+          "minutes": 1372,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 3,
+      "boardingTime": "22:00",
+      "alightingTime": "22:27",
+      "boardingMinutes": 1320,
+      "alightingMinutes": 1347,
+      "duration": 27
+    },
+    {
+      "routeCode": "B16",
+      "serviceName": "B16线（高校线）-澳琴晚班",
+      "direction": "toHengqin",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/城市大学到横琴.txt",
+      "stops": [
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "22:15",
+          "minutes": 1335,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "22:26",
+          "minutes": 1346,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴口岸（南二门 迎客平台）",
+          "displayName": "横琴口岸（南二门 迎客平台）",
+          "time": "22:51",
+          "minutes": 1371,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "中海名钻（北门）②",
+          "displayName": "中海名钻（北门）②",
+          "time": "23:08",
+          "minutes": 1388,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "23:10",
+          "minutes": 1390,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "23:12",
+          "minutes": 1392,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾②",
+          "displayName": "K2荔枝湾②",
+          "time": "23:14",
+          "minutes": 1394,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南",
+          "displayName": "澳门新街坊南",
+          "time": "23:17",
+          "minutes": 1397,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 0,
+      "alightingStopIndex": 2,
+      "boardingTime": "22:15",
+      "alightingTime": "22:51",
+      "boardingMinutes": 1335,
+      "alightingMinutes": 1371,
+      "duration": 36
+    },
+    {
+      "routeCode": "B7",
+      "serviceName": "B7线（高校线）-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "横琴人才公寓（西门）①",
+          "displayName": "横琴人才公寓（西门）①",
+          "time": "07:40",
+          "minutes": 460,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "国际网球中心（靠石山村公交点）",
+          "displayName": "国际网球中心（靠石山村公交点）",
+          "time": "07:43",
+          "minutes": 463,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "濠江路口（靠澳大公交点）①",
+          "displayName": "濠江路口（靠澳大公交点）①",
+          "time": "07:45",
+          "minutes": 465,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "08:15",
+          "minutes": 495,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "08:25",
+          "minutes": 505,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "08:35",
+          "minutes": 515,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新濠锋酒店",
+          "displayName": "澳门城市大学",
+          "time": "08:45",
+          "minutes": 525,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 3,
+      "alightingStopIndex": 6,
+      "boardingTime": "08:15",
+      "alightingTime": "08:45",
+      "boardingMinutes": 495,
+      "alightingMinutes": 525,
+      "duration": 30
+    },
+    {
+      "routeCode": "A1",
+      "serviceName": "A1线-上班线",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "金融岛（汇通五路）",
+          "displayName": "金融岛（汇通五路）",
+          "time": "07:30",
+          "minutes": 450,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发广场（联澳路交都会道）",
+          "displayName": "华发广场（联澳路交都会道）",
+          "time": "07:40",
+          "minutes": 460,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴国际商务中心（靠ICC）",
+          "displayName": "横琴国际商务中心（靠ICC）",
+          "time": "07:43",
+          "minutes": 463,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "08:15",
+          "minutes": 495,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "08:25",
+          "minutes": 505,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "08:27",
+          "minutes": 507,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "08:32",
+          "minutes": 512,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 3,
+      "alightingStopIndex": 6,
+      "boardingTime": "08:15",
+      "alightingTime": "08:32",
+      "boardingMinutes": 495,
+      "alightingMinutes": 512,
+      "duration": 17
+    },
+    {
+      "routeCode": "A3",
+      "serviceName": "A3线早班-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "中医药产业园内",
+          "displayName": "中医药产业园内",
+          "time": "07:30",
+          "minutes": 450,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "环岛北路西（科创中心）②",
+          "displayName": "环岛北路西（科创中心）②",
+          "time": "07:32",
+          "minutes": 452,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "07:41",
+          "minutes": 461,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "07:45",
+          "minutes": 465,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "07:46",
+          "minutes": 466,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "07:47",
+          "minutes": 467,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "07:48",
+          "minutes": 468,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "08:15",
+          "minutes": 495,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门威尼斯人",
+          "displayName": "澳门威尼斯人",
+          "time": "08:21",
+          "minutes": 501,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "08:24",
+          "minutes": 504,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "08:33",
+          "minutes": 513,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 7,
+      "alightingStopIndex": 10,
+      "boardingTime": "08:15",
+      "alightingTime": "08:33",
+      "boardingMinutes": 495,
+      "alightingMinutes": 513,
+      "duration": 18
+    },
+    {
+      "routeCode": "B6",
+      "serviceName": "B6线（高校线）-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "07:40",
+          "minutes": 460,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "金汇国际广场①",
+          "displayName": "金汇国际广场①",
+          "time": "07:42",
+          "minutes": 462,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "07:43",
+          "minutes": 463,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "07:46",
+          "minutes": 466,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "07:47",
+          "minutes": 467,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "07:49",
+          "minutes": 469,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "07:50",
+          "minutes": 470,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "08:19",
+          "minutes": 499,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳大/研究生宿舍①",
+          "displayName": "澳大/研究生宿舍①",
+          "time": "08:25",
+          "minutes": 505,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/中央教学楼②",
+          "displayName": "澳大/中央教学楼②",
+          "time": "08:27",
+          "minutes": 507,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "08:39",
+          "minutes": 519,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "霍英东马路/新濠天地",
+          "displayName": "霍英东马路/新濠天地",
+          "time": "08:41",
+          "minutes": 521,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新濠锋酒店",
+          "displayName": "澳门城市大学",
+          "time": "08:46",
+          "minutes": 526,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 7,
+      "alightingStopIndex": 12,
+      "boardingTime": "08:19",
+      "alightingTime": "08:46",
+      "boardingMinutes": 499,
+      "alightingMinutes": 526,
+      "duration": 27
+    },
+    {
+      "routeCode": "B1",
+      "serviceName": "B1线（高校线）-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "07:42",
+          "minutes": 462,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "07:43",
+          "minutes": 463,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "07:47",
+          "minutes": 467,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "07:48",
+          "minutes": 468,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "07:49",
+          "minutes": 469,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "07:50",
+          "minutes": 470,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "08:19",
+          "minutes": 499,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "08:29",
+          "minutes": 509,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）②",
+          "displayName": "澳门科技大学-伟龙（西北门）②",
+          "time": "08:32",
+          "minutes": 512,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "08:37",
+          "minutes": 517,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "08:52",
+          "minutes": 532,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 6,
+      "alightingStopIndex": 9,
+      "boardingTime": "08:19",
+      "alightingTime": "08:37",
+      "boardingMinutes": 499,
+      "alightingMinutes": 517,
+      "duration": 18
+    },
+    {
+      "routeCode": "B9",
+      "serviceName": "B9线（高校线）-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "07:54",
+          "minutes": 474,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "上村",
+          "displayName": "上村",
+          "time": "07:55",
+          "minutes": 475,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴市民中心（往口岸）",
+          "displayName": "横琴市民中心（往口岸）",
+          "time": "07:56",
+          "minutes": 476,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "下村②",
+          "displayName": "下村②",
+          "time": "07:57",
+          "minutes": 477,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "07:59",
+          "minutes": 479,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "08:00",
+          "minutes": 480,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "08:30",
+          "minutes": 510,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳大/研究生宿舍①",
+          "displayName": "澳大/研究生宿舍①",
+          "time": "08:40",
+          "minutes": 520,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/中央教学楼①",
+          "displayName": "澳大/中央教学楼①",
+          "time": "08:43",
+          "minutes": 523,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/行政楼",
+          "displayName": "澳大/行政楼",
+          "time": "08:47",
+          "minutes": 527,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "08:59",
+          "minutes": 539,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "09:01",
+          "minutes": 541,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "09:11",
+          "minutes": 551,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 6,
+      "alightingStopIndex": 12,
+      "boardingTime": "08:30",
+      "alightingTime": "09:11",
+      "boardingMinutes": 510,
+      "alightingMinutes": 551,
+      "duration": 41
+    },
+    {
+      "routeCode": "B16",
+      "serviceName": "B16线（高校线）-琴澳上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "08:00",
+          "minutes": 480,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "08:03",
+          "minutes": 483,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "08:04",
+          "minutes": 484,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "08:05",
+          "minutes": 485,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "08:06",
+          "minutes": 486,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "08:31",
+          "minutes": 511,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "08:46",
+          "minutes": 526,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "08:57",
+          "minutes": 537,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 7,
+      "boardingTime": "08:31",
+      "alightingTime": "08:57",
+      "boardingMinutes": 511,
+      "alightingMinutes": 537,
+      "duration": 26
+    },
+    {
+      "routeCode": "A5",
+      "serviceName": "A5线-琴澳上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "10:15",
+          "minutes": 615,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "10:17",
+          "minutes": 617,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "10:18",
+          "minutes": 618,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（琴政路北侧）",
+          "displayName": "保利国际广场（琴政路北侧）",
+          "time": "10:19",
+          "minutes": 619,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "10:20",
+          "minutes": 620,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "10:45",
+          "minutes": 645,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "11:00",
+          "minutes": 660,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "11:14",
+          "minutes": 674,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 6,
+      "boardingTime": "10:45",
+      "alightingTime": "11:00",
+      "boardingMinutes": 645,
+      "alightingMinutes": 660,
+      "duration": 15
+    },
+    {
+      "routeCode": "B3",
+      "serviceName": "B3线（高校线）-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "横琴人才公寓（西门）①",
+          "displayName": "横琴人才公寓（西门）①",
+          "time": "10:45",
+          "minutes": 645,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "国际网球中心（靠石山村公交点）",
+          "displayName": "国际网球中心（靠石山村公交点）",
+          "time": "10:48",
+          "minutes": 648,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "粗沙环（公交点）",
+          "displayName": "粗沙环（公交点）",
+          "time": "10:50",
+          "minutes": 650,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴医院",
+          "displayName": "横琴医院",
+          "time": "10:51",
+          "minutes": 651,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴新家园（靠澳大）①",
+          "displayName": "横琴新家园（靠澳大）①",
+          "time": "10:54",
+          "minutes": 654,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "濠江路口（靠澳大公交点）①",
+          "displayName": "濠江路口（靠澳大公交点）①",
+          "time": "10:55",
+          "minutes": 655,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "11:25",
+          "minutes": 685,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "11:35",
+          "minutes": 695,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）②",
+          "displayName": "澳门科技大学-伟龙（西北门）②",
+          "time": "11:40",
+          "minutes": 700,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "11:45",
+          "minutes": 705,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 6,
+      "alightingStopIndex": 9,
+      "boardingTime": "11:25",
+      "alightingTime": "11:45",
+      "boardingMinutes": 685,
+      "alightingMinutes": 705,
+      "duration": 20
+    },
+    {
+      "routeCode": "B10",
+      "serviceName": "B10线（高校线）-午上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "10:55",
+          "minutes": 655,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "10:58",
+          "minutes": 658,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "11:00",
+          "minutes": 660,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "11:01",
+          "minutes": 661,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "琴政路口（往创业谷方向）①",
+          "displayName": "琴政路口（往创业谷方向）①",
+          "time": "11:03",
+          "minutes": 663,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "11:28",
+          "minutes": 688,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学-轻轨站",
+          "displayName": "澳门科技大学-轻轨站",
+          "time": "11:38",
+          "minutes": 698,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学-伟龙（西北门）①",
+          "displayName": "澳门科技大学-伟龙（西北门）①",
+          "time": "11:42",
+          "minutes": 702,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "11:52",
+          "minutes": 712,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 8,
+      "boardingTime": "11:28",
+      "alightingTime": "11:52",
+      "boardingMinutes": 688,
+      "alightingMinutes": 712,
+      "duration": 24
+    },
+    {
+      "routeCode": "D6",
+      "serviceName": "D6澳琴东线午班-下班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "中医药产业园内",
+          "displayName": "中医药产业园内",
+          "time": "11:30",
+          "minutes": 690,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "11:41",
+          "minutes": 701,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "11:43",
+          "minutes": 703,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "市民中心（祥顺路东侧）（东3）",
+          "displayName": "市民中心（祥顺路东侧）（东3）",
+          "time": "11:45",
+          "minutes": 705,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "伯牙小学临时停靠点②",
+          "displayName": "伯牙小学临时停靠点②",
+          "time": "11:48",
+          "minutes": 708,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "天星里②",
+          "displayName": "天星里②",
+          "time": "11:50",
+          "minutes": 710,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "依依桥北①",
+          "displayName": "依依桥北①",
+          "time": "11:51",
+          "minutes": 711,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "濠江路口①",
+          "displayName": "濠江路口①",
+          "time": "11:52",
+          "minutes": 712,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "12:12",
+          "minutes": 732,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "莲花路停车场",
+          "displayName": "莲花路停车场",
+          "time": "12:14",
+          "minutes": 734,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "机场大马路/上葡京",
+          "displayName": "机场大马路/上葡京",
+          "time": "12:16",
+          "minutes": 736,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "机场大马路/科大医院",
+          "displayName": "机场大马路/科大医院",
+          "time": "12:18",
+          "minutes": 738,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "12:28",
+          "minutes": 748,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "海上居",
+          "displayName": "海上居",
+          "time": "12:40",
+          "minutes": 760,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "关闸广场（旅游巴出口停靠位）",
+          "displayName": "关闸广场（旅游巴出口停靠位）",
+          "time": "12:42",
+          "minutes": 762,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "关闸马路",
+          "displayName": "关闸马路",
+          "time": "12:46",
+          "minutes": 766,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "观音古庙门口（澳旅大望厦校区）",
+          "displayName": "观音古庙门口（澳旅大望厦校区）",
+          "time": "12:51",
+          "minutes": 771,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "观音堂（来来商场对面）",
+          "displayName": "观音堂（来来商场对面）",
+          "time": "12:52",
+          "minutes": 772,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "二龙喉公园",
+          "displayName": "二龙喉公园",
+          "time": "12:55",
+          "minutes": 775,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 8,
+      "alightingStopIndex": 12,
+      "boardingTime": "12:12",
+      "alightingTime": "12:28",
+      "boardingMinutes": 732,
+      "alightingMinutes": 748,
+      "duration": 16
+    },
+    {
+      "routeCode": "B17",
+      "serviceName": "B17线（高校线）-琴澳午上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "13:00",
+          "minutes": 780,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "13:02",
+          "minutes": 782,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "13:03",
+          "minutes": 783,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（琴政路北侧）",
+          "displayName": "保利国际广场（琴政路北侧）",
+          "time": "13:04",
+          "minutes": 784,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "13:05",
+          "minutes": 785,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "13:31",
+          "minutes": 811,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "13:49",
+          "minutes": 829,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "14:00",
+          "minutes": 840,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 7,
+      "boardingTime": "13:31",
+      "alightingTime": "14:00",
+      "boardingMinutes": 811,
+      "alightingMinutes": 840,
+      "duration": 29
+    },
+    {
+      "routeCode": "A5",
+      "serviceName": "A5线-琴澳午上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "13:15",
+          "minutes": 795,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "13:17",
+          "minutes": 797,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "13:18",
+          "minutes": 798,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "13:19",
+          "minutes": 799,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "13:20",
+          "minutes": 800,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "13:45",
+          "minutes": 825,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "14:00",
+          "minutes": 840,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "14:14",
+          "minutes": 854,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 6,
+      "boardingTime": "13:45",
+      "alightingTime": "14:00",
+      "boardingMinutes": 825,
+      "alightingMinutes": 840,
+      "duration": 15
+    },
+    {
+      "routeCode": "B15",
+      "serviceName": "B15线（高校线）-琴澳午班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "13:15",
+          "minutes": 795,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "13:18",
+          "minutes": 798,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "13:20",
+          "minutes": 800,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "13:22",
+          "minutes": 802,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "13:24",
+          "minutes": 804,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "13:49",
+          "minutes": 829,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "14:00",
+          "minutes": 840,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "14:13",
+          "minutes": 853,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 7,
+      "boardingTime": "13:49",
+      "alightingTime": "14:13",
+      "boardingMinutes": 829,
+      "alightingMinutes": 853,
+      "duration": 24
+    },
+    {
+      "routeCode": "C4",
+      "serviceName": "C4线中班-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "上村村口公交站",
+          "displayName": "上村村口公交站",
+          "time": "14:00",
+          "minutes": 840,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "14:03",
+          "minutes": 843,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "14:06",
+          "minutes": 846,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "14:07",
+          "minutes": 847,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（琴政路南侧）",
+          "displayName": "保利国际广场（琴政路南侧）",
+          "time": "14:08",
+          "minutes": 848,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "14:09",
+          "minutes": 849,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "14:34",
+          "minutes": 874,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "14:40",
+          "minutes": 880,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "14:42",
+          "minutes": 882,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "14:48",
+          "minutes": 888,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 6,
+      "alightingStopIndex": 9,
+      "boardingTime": "14:34",
+      "alightingTime": "14:48",
+      "boardingMinutes": 874,
+      "alightingMinutes": 888,
+      "duration": 14
+    },
+    {
+      "routeCode": "A2",
+      "serviceName": "A2线-上班线",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "14:12",
+          "minutes": 852,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "14:15",
+          "minutes": 855,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "14:16",
+          "minutes": 856,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "14:17",
+          "minutes": 857,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "14:18",
+          "minutes": 858,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "14:48",
+          "minutes": 888,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学南门（新濠天地）①",
+          "displayName": "澳门科技大学南门（新濠天地）①",
+          "time": "14:58",
+          "minutes": 898,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "15:00",
+          "minutes": 900,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "15:05",
+          "minutes": 905,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 8,
+      "boardingTime": "14:48",
+      "alightingTime": "15:05",
+      "boardingMinutes": 888,
+      "alightingMinutes": 905,
+      "duration": 17
+    },
+    {
+      "routeCode": "A5",
+      "serviceName": "A5线-琴澳晚下班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "17:45",
+          "minutes": 1065,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "17:47",
+          "minutes": 1067,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "17:48",
+          "minutes": 1068,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "17:49",
+          "minutes": 1069,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "17:50",
+          "minutes": 1070,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "18:15",
+          "minutes": 1095,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "18:30",
+          "minutes": 1110,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "18:44",
+          "minutes": 1124,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 6,
+      "boardingTime": "18:15",
+      "alightingTime": "18:30",
+      "boardingMinutes": 1095,
+      "alightingMinutes": 1110,
+      "duration": 15
+    },
+    {
+      "routeCode": "B17",
+      "serviceName": "B17线（高校线）-琴澳晚上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "17:50",
+          "minutes": 1070,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "17:52",
+          "minutes": 1072,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "17:53",
+          "minutes": 1073,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "17:54",
+          "minutes": 1074,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "17:55",
+          "minutes": 1075,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "18:20",
+          "minutes": 1100,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "18:39",
+          "minutes": 1119,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "18:49",
+          "minutes": 1129,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 7,
+      "boardingTime": "18:20",
+      "alightingTime": "18:49",
+      "boardingMinutes": 1100,
+      "alightingMinutes": 1129,
+      "duration": 29
+    },
+    {
+      "routeCode": "A4",
+      "serviceName": "A4线下午-上班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "中医药产业园内",
+          "displayName": "中医药产业园内",
+          "time": "17:38",
+          "minutes": 1058,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "环岛北路西（科创中心）②",
+          "displayName": "环岛北路西（科创中心）②",
+          "time": "17:39",
+          "minutes": 1059,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "桂风道路口（南侧东行）",
+          "displayName": "桂风道路口（南侧东行）",
+          "time": "17:44",
+          "minutes": 1064,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "市民中心（祥顺路西侧）（西1）",
+          "displayName": "市民中心（祥顺路西侧）（西1）",
+          "time": "17:50",
+          "minutes": 1070,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "17:52",
+          "minutes": 1072,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "金汇国际广场①",
+          "displayName": "金汇国际广场①",
+          "time": "17:54",
+          "minutes": 1074,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "17:56",
+          "minutes": 1076,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "18:02",
+          "minutes": 1082,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "18:03",
+          "minutes": 1083,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（琴政路南侧）",
+          "displayName": "保利国际广场（琴政路南侧）",
+          "time": "18:05",
+          "minutes": 1085,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "18:06",
+          "minutes": 1086,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "18:26",
+          "minutes": 1106,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳大/研究生宿舍①",
+          "displayName": "澳大/研究生宿舍①",
+          "time": "18:34",
+          "minutes": 1114,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳大/中央教学楼①",
+          "displayName": "澳大/中央教学楼①",
+          "time": "18:36",
+          "minutes": 1116,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门威尼斯人",
+          "displayName": "澳门威尼斯人",
+          "time": "18:45",
+          "minutes": 1125,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门科技大学东门（轻轨站）",
+          "displayName": "澳门科技大学东门（轻轨站）",
+          "time": "18:51",
+          "minutes": 1131,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "18:58",
+          "minutes": 1138,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 11,
+      "alightingStopIndex": 16,
+      "boardingTime": "18:26",
+      "alightingTime": "18:58",
+      "boardingMinutes": 1106,
+      "alightingMinutes": 1138,
+      "duration": 32
+    },
+    {
+      "routeCode": "B16",
+      "serviceName": "B16线（高校线）-琴澳下班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "18:00",
+          "minutes": 1080,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "18:02",
+          "minutes": 1082,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）②",
+          "displayName": "华发首府（4号岗）②",
+          "time": "18:04",
+          "minutes": 1084,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "18:06",
+          "minutes": 1086,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "18:08",
+          "minutes": 1088,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "18:33",
+          "minutes": 1113,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "18:49",
+          "minutes": 1129,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "19:00",
+          "minutes": 1140,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 7,
+      "boardingTime": "18:33",
+      "alightingTime": "19:00",
+      "boardingMinutes": 1113,
+      "alightingMinutes": 1140,
+      "duration": 27
+    },
+    {
+      "routeCode": "D1",
+      "serviceName": "D1市民中心-下班线",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "琴海西站总站",
+          "displayName": "琴海西站总站",
+          "time": "18:05",
+          "minutes": 1085,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中葡经贸中心（往口岸）",
+          "displayName": "中葡经贸中心（往口岸）",
+          "time": "18:13",
+          "minutes": 1093,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊",
+          "displayName": "澳门新街坊",
+          "time": "18:18",
+          "minutes": 1098,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "市民中心（祥顺路西侧）（西1）",
+          "displayName": "市民中心（祥顺路西侧）（西1）",
+          "time": "18:20",
+          "minutes": 1100,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "18:22",
+          "minutes": 1102,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "横琴市民中心（往口岸）",
+          "displayName": "横琴市民中心（往口岸）",
+          "time": "18:27",
+          "minutes": 1107,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "18:47",
+          "minutes": 1127,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "莲花路停车场",
+          "displayName": "莲花路停车场",
+          "time": "18:50",
+          "minutes": 1130,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "赛马会（公交站）",
+          "displayName": "赛马会（公交站）",
+          "time": "19:00",
+          "minutes": 1140,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新濠锋酒店",
+          "displayName": "澳门城市大学",
+          "time": "19:17",
+          "minutes": 1157,
+          "dayOffset": 0,
+          "role": "alighting"
+        },
+        {
+          "rawName": "澳门理工大学主校区（理工学院街）",
+          "displayName": "澳门理工大学主校区（理工学院街）",
+          "time": "19:38",
+          "minutes": 1178,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门新葡京酒店",
+          "displayName": "澳门新葡京酒店",
+          "time": "19:41",
+          "minutes": 1181,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "友谊马路/海景花园",
+          "displayName": "友谊马路/海景花园",
+          "time": "19:43",
+          "minutes": 1183,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "海上居",
+          "displayName": "海上居",
+          "time": "19:53",
+          "minutes": 1193,
+          "dayOffset": 0,
+          "role": null
+        }
+      ],
+      "boardingStopIndex": 6,
+      "alightingStopIndex": 9,
+      "boardingTime": "18:47",
+      "alightingTime": "19:17",
+      "boardingMinutes": 1127,
+      "alightingMinutes": 1157,
+      "duration": 30
+    },
+    {
+      "routeCode": "B15",
+      "serviceName": "B15线（高校线）-琴澳晚班",
+      "direction": "toUniversity",
+      "serviceDays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "validDates": null,
+      "serviceRuleSource": "data/routes/横琴到城市大学.txt",
+      "stops": [
+        {
+          "rawName": "澳门新街坊南（往口岸）",
+          "displayName": "澳门新街坊南（往口岸）",
+          "time": "22:15",
+          "minutes": 1335,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "K2荔枝湾（伯牙幼儿园旁）",
+          "displayName": "K2荔枝湾（伯牙幼儿园旁）",
+          "time": "22:17",
+          "minutes": 1337,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "华发首府（4号岗）①",
+          "displayName": "华发首府（4号岗）①",
+          "time": "22:19",
+          "minutes": 1339,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "保利国际广场（朗琴道交琴政路北侧）",
+          "displayName": "保利国际广场（朗琴道交琴政路北侧）",
+          "time": "22:21",
+          "minutes": 1341,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "中海名钻（北门）①",
+          "displayName": "中海名钻（北门）①",
+          "time": "22:23",
+          "minutes": 1343,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "澳门口岸区H2（7/8/9卡位）",
+          "displayName": "澳门口岸区H2（7/8/9卡位）",
+          "time": "22:48",
+          "minutes": 1368,
+          "dayOffset": 0,
+          "role": "boarding"
+        },
+        {
+          "rawName": "澳门科技大学（望德圣母湾大马路）",
+          "displayName": "澳门科技大学（望德圣母湾大马路）",
+          "time": "23:04",
+          "minutes": 1384,
+          "dayOffset": 0,
+          "role": null
+        },
+        {
+          "rawName": "新濠锋正门（澳城大/澳理大/澳旅大）",
+          "displayName": "澳门城市大学",
+          "time": "23:13",
+          "minutes": 1393,
+          "dayOffset": 0,
+          "role": "alighting"
+        }
+      ],
+      "boardingStopIndex": 5,
+      "alightingStopIndex": 7,
+      "boardingTime": "22:48",
+      "alightingTime": "23:13",
+      "boardingMinutes": 1368,
+      "alightingMinutes": 1393,
+      "duration": 25
+    }
+  ]
+}

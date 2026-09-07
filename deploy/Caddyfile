@@ -1,0 +1,19 @@
+{$SITE_DOMAIN:localhost} {
+  root * /var/www/tongqin
+  encode zstd gzip
+
+  @assets path /assets/* /icon-*.png /apple-touch-icon.png /og.png
+  header @assets Cache-Control "public, max-age=31536000, immutable"
+  header /sw.js Cache-Control "no-cache, no-store, must-revalidate"
+  header /manifest.webmanifest Cache-Control "public, max-age=3600"
+
+  header {
+    Strict-Transport-Security "max-age=31536000"
+    X-Content-Type-Options nosniff
+    Referrer-Policy strict-origin-when-cross-origin
+    Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  }
+
+  try_files {path} {path}/index.html /index.html
+  file_server
+}
